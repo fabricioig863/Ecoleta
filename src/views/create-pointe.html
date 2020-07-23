@@ -1,0 +1,134 @@
+{% extends "layout.html" %}
+
+{% set pageId = "page-create-point" %}
+
+{% block title %}
+    <title>Criar um ponto de coleta</title>
+{% endblock title %}
+
+{% block styles %}
+    <link rel="stylesheet" href="/styles/create-pointe.css">
+    <link rel="stylesheet" href="/styles/modal.css">
+{% endblock styles %}
+
+{% block content %}
+    {% include "partials/page-header.html" %}
+
+    <form action="/savepoint" method="POST">
+
+        <h1>Cadastro do ponto de coleta</h1>
+
+        <fieldset>
+            <legend>
+                <h2>Dados da entidade</h2>
+            </legend>
+
+            <div class="field-group">
+                <div class="field">
+                    <label for="name">Nome da entidade</label>
+                    <input type="text" name="name" required="required">
+                </div>
+                <div class="field">
+                    <label for="name">Imagem da entidade</label>
+                    <input 
+                    type="url" 
+                    name="image"
+                    placeholder="http://"
+                    required="required">
+                </div>
+            </div>
+
+
+            <div class="field-group">
+                <div class="field">
+                    <label for="address">Endereco</label>
+                    <input type="text" name="address" required="required">
+                </div>
+                <div class="field">
+                    <label for="address2">Numero/Complemento</label>
+                    <input type="text" name="address2" required="required">
+                </div>
+            </div>
+
+            <div class="field-group">
+                <div class="field">
+                    <label for="state">Estado</label>
+                    <select name="uf" required="required">
+                        <option value="">Selecione o Estado</option>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d452518.1476939827!2d-48.76287175096446!3d-27.61528497350564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952749bfe17eb89f%3A0xd3d6e34c9fba2a18!2sFlorian%C3%B3polis%20-%20State%20of%20Santa%20Catarina!5e0!3m2!1sen!2sbr!4v1591322561720!5m2!1sen!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </select>
+
+                    <input type="hidden" name="state">
+                </div>
+
+                <div class="field">
+                    <label for="city">Cidade</label>
+                    <select name="city" disabled="disabled" required="required">
+                        <option value="">Selecione a Cidade</option>
+                    </select>
+                </div>
+
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                <h2>Itens de Coleta</h2>
+                <span>Selecione um ou mais itens abaixo</span>
+            </legend>
+
+            <div class="items-grid">
+                <li data-id="Lampadas">
+                    <img src="/assets/lampadas.svg" alt="Lampadas">
+                    <span>Lampadas</span>
+                </li>
+
+                <li data-id="Pilhas e Baterias">
+                    <img src="/assets/baterias.svg" alt="Pilhas e Baterias">
+                    <span>Pilhas e Baterias</span>
+                </li>
+
+                <li data-id="Papeis e Papelao">
+                    <img src="/assets/papeis-papelao.svg" alt="Papeis e Papelao">
+                    <span>Papeis e Papelao</span>
+                </li>
+
+                <li data-id="Residuos Eletronicos">
+                    <img src="/assets/eletronicos.svg" alt="Residuos Eletronicos">
+                    <span>Residuos Eletronicos</span>
+                </li>
+
+                <li data-id="Residuos organicos">
+                    <img src="/assets/organicos.svg" alt="Residuos organicos">
+                    <span>Residuos organicos</span>
+                </li>
+
+                <li data-id="Oleo de Cozinha">
+                    <img src="/assets/oleo.svg" alt="Oleo de Cozinha">
+                    <span>Oleo de Cozinha</span>
+                </li>
+
+            </div>
+
+            <input type="hidden" name="items"> 
+
+        </fieldset>
+
+        <button type="submit">Cadastrar ponto de coleta</button>
+    </form>
+
+ 
+{% endblock content %}
+
+
+{% block modal %}
+    {% if saved %}
+        {%include "partials/pointe-created.html"%}
+    {% endif %}
+{% endblock modal %}
+
+
+{% block scripts %}
+    <script src="/scripts/create-pointe.js"></script>
+{% endblock scripts %}
