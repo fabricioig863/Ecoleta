@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Logo" src="https://ik.imagekit.io/rafaelmartins/logo_4JEkedE6g.png" />
+    <img alt="Logo" src="https://github.com/fabricioig863/ecoleta/blob/master/public/assets/logo.svg" />
     <br>
 </h1>
 
@@ -7,7 +7,7 @@
 <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-tecnologias">Linguagens</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#-layout">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-license">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 ## 🚀 Projeto 
