@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Logo" src="https://github.com/fabricioig863/ecoleta/blob/master/public/assets/logo.svg" />
+    <img alt="Logo" src="https://github.com/fabricioig863/ecoleta/blob/master/Layout/logo.svg" />
     <br>
 </h1>
 
