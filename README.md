@@ -13,15 +13,6 @@
 
 Aplicação desenvolvida durante o evento da primeira semana da Next Level Week da Rocktseat, em que a idéia seria ajudar pessoas a encontrar pontos de coleta de resíduos de uma forma mais conveniente.
 
-## 💻 Linguagens:
-
-- HTML
-- CSS
-- Javascript
-- Node
-- Express
-- SQLite
-
 
 ## 🎨 Layout
 
@@ -32,3 +23,11 @@ Aplicação desenvolvida durante o evento da primeira semana da Next Level Week 
 ![Layout do projeto](https://github.com/fabricioig863/ecoleta/blob/master/Layout/layout-05.png)
 
 
+## 💻 Linguagens:
+
+- HTML
+- CSS
+- Javascript
+- Node
+- Express
+- SQLite
