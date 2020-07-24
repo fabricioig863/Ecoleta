@@ -26,11 +26,11 @@ Aplicação desenvolvida durante o evento da primeira semana da Next Level Week 
 
 ## 🎨 Layout
 
-![Layout do projeto](https://github.com/fabricioig863/ecoleta/blob/master/Layout/Anota%C3%A7%C3%A3o%202020-06-07%20153510.png)
-![Layout do projeto](https://github.com/fabricioig863/ecoleta/blob/master/Layout/Anota%C3%A7%C3%A3o%202020-06-07%20153545.png)
-![Layout do projeto](https://github.com/fabricioig863/ecoleta/blob/master/Layout/Anota%C3%A7%C3%A3o%202020-06-07%20153615.png)
-![Layout do projeto](https://github.com/fabricioig863/ecoleta/blob/master/Layout/Anota%C3%A7%C3%A3o%202020-06-07%20153657.png)
-![Layout do projeto](https://github.com/fabricioig863/ecoleta/blob/master/Layout/Anota%C3%A7%C3%A3o%202020-06-07%20153741.png)
+![Layout do projeto](https://github.com/fabricioig863/ecoleta/blob/master/Layout/layout-01.png)
+![Layout do projeto](https://github.com/fabricioig863/ecoleta/blob/master/Layout/layout-02.png)
+![Layout do projeto](https://github.com/fabricioig863/ecoleta/blob/master/Layout/layout-03.png)
+![Layout do projeto](https://github.com/fabricioig863/ecoleta/blob/master/Layout/layout-04.png)
+![Layout do projeto](https://github.com/fabricioig863/ecoleta/blob/master/Layout/layout-05.png)
 
 ## 📝 License 
 
