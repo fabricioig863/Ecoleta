@@ -23,7 +23,7 @@ Aplicação desenvolvida durante o evento da primeira semana da Next Level Week 
 ![Layout do projeto](https://github.com/fabricioig863/ecoleta/blob/master/Layout/layout-05.png)
 
 
-## 💻 Linguagens:
+## 💻 Linguagens
 
 - HTML
 - CSS
