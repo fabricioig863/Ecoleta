@@ -5,7 +5,7 @@
 
 <p align="center">
 <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-tecnologias">Linguagens</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
@@ -23,7 +23,8 @@ Aplicação desenvolvida durante o evento da primeira semana da Next Level Week 
 ![Layout do projeto](https://github.com/fabricioig863/ecoleta/blob/master/Layout/layout-05.png)
 
 
-## 💻 Linguagens
+
+## 💻 Tecnologias
 
 - HTML
 - CSS
