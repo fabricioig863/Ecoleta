@@ -4,9 +4,10 @@
 </h1>
 
 <p align="center">
-<a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="#-license">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 ## 🚀 Projeto 
@@ -32,3 +33,7 @@ Aplicação desenvolvida durante o evento da primeira semana da Next Level Week 
 - Node
 - Express
 - SQLite
+
+## 📝 License
+
+Este projeto está sob a licença MIT. Consulte a [LICENSE](https://github.com/fabricioig863/ecoleta/blob/master/LICENSE) para mais informações.
